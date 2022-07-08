@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>登录</title>
+</head>
+<style>
+</style>
+<body>
+<div id="login_form">
+
+  <form action="login/login" method="post">
+    <div class="loginbox bg-white">
+      <div class="loginbox-textbox">
+        <input class="form-control" placeholder="username" name="user_name" type="text">
+      </div>
+      <div class="loginbox-textbox">
+        <input class="form-control" placeholder="password" name="user_passwd" type="password">
+      </div>
+      <div class="loginbox-submit">
+        <input class="btn btn-primary btn-block" value="登录" type="submit">
+        <input formaction="{:url('public/index.php/index/regist/index')}" class="btn btn-primary btn-block" value="注册" type="submit">
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
